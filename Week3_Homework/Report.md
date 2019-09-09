@@ -35,3 +35,13 @@ sudo apt-get install golang
 	export GOPATH=$HOME/gowork
 	export PATH=$PATH:$GOPATH/bin
     ```
+
+```
+	package main
+
+	import "fmt"
+
+	func main() {
+		fmt.Printf("hello, world\n")
+	}
+```

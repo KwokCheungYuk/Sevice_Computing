@@ -28,10 +28,8 @@ sudo apt-get install golang
 
 #### 2.2设置环境变量
 - **创建工作空间**
-   
     在终端中输入命令```mkdir $HOME/gowork```
 - **配置的环境变量**
-   
     在终端中输入命令```sudo gedit ~/.bashrc```,在打开的文件中最末尾添加两行代码
     ```
 	export GOPATH=$HOME/gowork

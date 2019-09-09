@@ -20,11 +20,11 @@ sudo dpkg -i code_x.xx.x-xxxxxxxxxx_amd64.deb
 sudo apt-get install golang
 ``` 
 
-![](/IGM/01.jpg)
+![](IGM/01.jpg)
 
 安装好之后在终端输入```go version```来查看go语言的版本
 
-![](/IGM/02.jpg)
+![](IGM/02.jpg)
 
 #### 2.2设置环境变量
 - **创建工作空间**
@@ -43,7 +43,7 @@ sudo apt-get install golang
 - **检查配置**
 
 	终端执行命令```go env```查看go的环境配置
-	![](/IGM/04.jpg)
+	![](IGM/04.jpg)
 #### 2.3创建 hello world！
 首先创建源代码目录：
 
@@ -75,7 +75,7 @@ hello
 ```
 就会输出hello,world了。
 
-![](/IGM/05.jpg)
+![](IGM/05.jpg)
 
 ### 3.安装必要的工具和插件
 #### 3.1安装git
@@ -84,7 +84,7 @@ hello
 #### 3.2安装VSCode的go插件
 打开VSCode，点击左侧第五个图标，在搜索栏输入go，点击第一个插件，点击安装即可。
 
-![](/IGM/11.jpg)
+![](IGM/11.jpg)
 
 ### 4.创建第一个库
 首先选择库的路径，在终端输入
@@ -148,7 +148,7 @@ hello
 ```
 
 就会看到Hello, Go!的输出了。
-![](/IGM/06.jpg)
+![](IGM/06.jpg)
 
 做到这里之后，工作空间应该变成这样子
 
@@ -169,9 +169,9 @@ src/
 
 以下是我的工作空间截图：
 
-![](/IGM/07.jpg)
-![](/IGM/08.jpg)
-![](/IGM/09.jpg)
+![](IGM/07.jpg)
+![](IGM/08.jpg)
+![](IGM/09.jpg)
 
 ### 5.创建第一个测试
 你可以通过创建一个名字以 _test.go 结尾的，包含名为 TestXXX 且签名为 func (t *testing.T) 函数的文件来编写测试。 测试框架会运行每一个这样的函数；若该函数调用了像 t.Error 或 t.Fail 这样表示失败的函数，此测试即表示失败。
@@ -216,12 +216,12 @@ go test
 若通过测试，则会看到OK字样.
 
 
-![](/IGM/10.jpg)
+![](IGM/10.jpg)
 
 ### 6.将文件上传到github上
 首先需要在github上创建一个仓库，然后进入仓库，点击clone，或者https链接：
 
-![](/IGM/12.jpg)
+![](IGM/12.jpg)
 
 然后在终端中输入
 

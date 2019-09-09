@@ -39,6 +39,7 @@ sudo apt-get install golang
 	export PATH=$PATH:$GOPATH/bin
     ```
 	![](IGM/03.jpg)
+	
 	保存后在终端执行命令```source ~/.bashrc```更新配置
 - **检查配置**
 
